@@ -25,7 +25,8 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 const App: () => React$Node = () => {
-  console.log("I'm a console statement!");
+  console.log("Welcome to C308 Lesson 04 quiz!");
+  console.log("Your component here");
   return (
     <>
       <StatusBar barStyle="dark-content" />
@@ -64,6 +65,12 @@ const App: () => React$Node = () => {
                 <Text style={styles.highlight}>Ayam Penyet</Text> has a long queue for its 'smashed chicken'(ayam penyet). The chicken is soaked in homemade sauce and topped with crunchy fried crumbs. Its chilli is not too spicy.
               </Text>
               <Text style={styles.highlight}>W4/W6 Lawn Canteen</Text>
+            </View>
+            <View style={styles.sectionContainer}>
+              <Text style={styles.sectionTitle}>Set Pickup Time</Text>
+              <Text>Set a time you would like us to arrive at your pickup location
+              </Text>
+              <Text style={styles.highlight}>RP Furniture Shop</Text>
             </View>
             <LearnMoreLinks />
           </View>
